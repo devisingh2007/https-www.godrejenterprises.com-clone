@@ -1,13 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./godrej/https-www.godrejenterprises.com-clone/godrejenterprises/godrejenterprises.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Checkout — Dell Store</title>
+ 
+  <link rel="stylesheet" href="./godrejenterprises.css">
+  <style>
+    
+ 
+  </style>
 </head>
 <body>
-    <header class="header">
+   <header class="headerr">
         <div class="head-up">
             <div><svg class="ui-header__logo-image" aria-hidden="true" focusable="false"
                     xmlns="http://www.w3.org/2000/svg" width="61" height="28" viewBox="0 0 61 28" fill="none">
@@ -30,7 +35,6 @@
             </div>
             <div style="color: #810055;">Godrej Enterprises Group</div>
         </div>
-        <div>
         <nav class="nav">
 
             <div class="nav-links">
@@ -46,381 +50,129 @@
                         d="m19.485 20.154l-6.262-6.262q-.75.639-1.725.989t-1.96.35q-2.402 0-4.066-1.663T3.808 9.503T5.47 5.436t4.064-1.667t4.068 1.664T15.268 9.5q0 1.042-.369 2.017t-.97 1.668l6.262 6.261zM9.539 14.23q1.99 0 3.36-1.37t1.37-3.361t-1.37-3.36t-3.36-1.37t-3.361 1.37t-1.37 3.36t1.37 3.36t3.36 1.37" />
                 </svg></div>
         </nav>
+    </header>
+  <header class="co-header">
+    <div class="co-inner">
+      <a class="co-logo" href="./index.html"  style="color: #810055;">Back to Store</a>
+      <h1 class="co-brand">Checkout</h1>
     </div>
-    </header>
+  </header>
 
+  <main class="checkout">
+    <div class="container">
+      <form class="checkout-form" action="#" method="post" novalidate>
+        <section class="billing">
+          <h2>Billing & Shipping Details</h2>
 
+          <label for="fullName">Full name</label>
+          <input id="fullName" name="fullName" type="text" required placeholder="First Last">
 
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com">
 
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" inputmode="tel" placeholder="+91 98765 43210">
 
-<div class="container">
-    <header class="page-header">
-      <h1 class="page-title">Double Door Frost Free</h1>
-      <p class="product-count">62 products</p>
-    </header>
+          <label for="address">Address</label>
+          <input id="address" name="address" type="text" required placeholder="Street address, P.O. box">
 
-    <nav class="filter-nav">
-      <div class="filter-buttons">
-        <button class="filter-btn">Side by Side Frost Free</button>
-        <button class="filter-btn active">Double Door Frost Free</button>
-        <button class="filter-btn">Single Door Direct Cool</button>
-        <button class="filter-btn">Store Locator</button>
-      </div>
-      <div class="controls">
-        <button class="filters-btn">
-          Filters
-          <svg class="filter-icon" viewBox="0 0 24 24" width="16" height="16">
-            <path fill="currentColor" d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
-          </svg>
-        </button>
-        <div class="compare-section">
-          <span class="compare-text">Compare</span>
-          <label class="toggle-switch">
-            <input type="checkbox" id="compareToggle">
-            <span class="slider"></span>
-          </label>
-        </div>
-      </div>
-    </nav>
-
-    <main class="products-grid">
-      <div class="product-card">
-        <div class="product-image">
-          <img 
-            src="https://static.godrejenterprises.com/Limbo_Image_1_f86896d4fe.webp" 
-           
-            alt="Eon Regalis Double Door Frost Free 472 Litre Champagne Gold"
-           
-          >
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Eon Regalis - Double Door Frost Free 472 Litre Champagne Gold</h3>
-          <p class="product-model">RT EONREGALIS 517B RCI CH GD</p>
-          <div class="product-actions">
-            <button class="buy-now-btn">Buy Now</button>
-            <button class="see-details-btn">
-              See details
-              <svg class="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
+          <div class="row">
+            <div>
+              <label for="city">City</label>
+              <input id="city" name="city" type="text" required>
+            </div>
+            <div>
+              <label for="state">State / Region</label>
+              <input id="state" name="state" type="text">
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="product-card">
-        <div class="product-image">
-          <img 
-            src="https://static.godrejenterprises.com/Limbo_Image_3_f95ae2ddcf.webp" 
-           
-            alt="Eon Regalis Double Door Frost Free 472 Litre Matt Black"
-          
-          >
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Eon Regalis - Double Door Frost Free 472 Litre Matt Black</h3>
-          <p class="product-model">RT EONREGALIS 517B RCI MT BK</p>
-          <div class="product-actions">
-            <button class="buy-now-btn">Buy Now</button>
-            <button class="see-details-btn">
-              See details
-              <svg class="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
+          <div class="row">
+            <div>
+              <label for="zip">Postal code</label>
+              <input id="zip" name="zip" type="text" inputmode="numeric" pattern="[0-9]{3,10}">
+            </div>
+            <div>
+              <label for="country">Country</label>
+              <select id="country" name="country" required>
+                <option value="IN">India</option>
+                <option value="US">United States</option>
+                <option value="GB">United Kingdom</option>
+                <option value="OTHER">Other</option>
+              </select>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="product-card">
-        <div class="product-image">
-          <img 
-            src="https://static.godrejenterprises.com/Limbo_Image_3_d39ad13c0b.webp" 
-          >
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Eon Regalis - Double Door Frost Free 436 Litre Matt Black</h3>
-          <p class="product-model">RT EONREGALIS 477B RCI MT BK</p>
-          <div class="product-actions">
-            <button class="buy-now-btn">Buy Now</button>
-            <button class="see-details-btn">
-              See details
-              <svg class="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
+          <hr>
 
-      <div class="product-card">
-        <div class="product-image">
-          <img 
-            src="https://static.godrejenterprises.com/Limbo_Image_1_827e2356ce.webp" 
-          
-          >
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Eon Regalis - Double Door Frost Free 436 Litre Champagne Gold</h3>
-          <p class="product-model">RT EONREGALIS 477B RCI CH GD</p>
-          <div class="product-actions">
-            <button class="buy-now-btn">Buy Now</button>
-            <button class="see-details-btn">
-              See details
-              <svg class="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
-    </main>
-     <main class="products-grid">
-      <div class="product-card">
-        <div class="product-image">
-          <img 
-            src="https://static.godrejenterprises.com/RT_EONVIB_Esteel_rush_a0f93ab5c8.webp" 
-           
-            alt="Eon Regalis Double Door Frost Free 472 Litre Champagne Gold"
-           
-          >
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Eon Regalis - Double Door Frost Free 472 Litre Champagne Gold</h3>
-          <p class="product-model">RT EONREGALIS 517B RCI CH GD</p>
-          <div class="product-actions">
-            <button class="buy-now-btn">Buy Now</button>
-            <button class="see-details-btn">
-              See details
-              <svg class="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
+          <h2>Payment</h2>
 
-      <div class="product-card">
-        <div class="product-image">
-          <img 
-            src="https://static.godrejenterprises.com/RT_EONVIBE_366_B_RCIT_MTBK_1_a6b5c98588.webp" 
-           
-            alt="Eon Regalis Double Door Frost Free 472 Litre Matt Black"
-          
-          >
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Eon Regalis - Double Door Frost Free 472 Litre Matt Black</h3>
-          <p class="product-model">RT EONREGALIS 517B RCI MT BK</p>
-          <div class="product-actions">
-            <button class="buy-now-btn">Buy Now</button>
-            <button class="see-details-btn">
-              See details
-              <svg class="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
+          <label class="radio"><input type="radio" name="payment" value="card" checked> Credit / Debit card</label>
+          <label class="radio"><input type="radio" name="payment" value="upi"> UPI / Netbanking</label>
 
-      <div class="product-card">
-        <div class="product-image">
-          <img 
-            src="https://static.godrejenterprises.com/RT_EONVIB_Esteel_rush_240dbe1798.webp" 
-          >
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Eon Regalis - Double Door Frost Free 436 Litre Matt Black</h3>
-          <p class="product-model">RT EONREGALIS 477B RCI MT BK</p>
-          <div class="product-actions">
-            <button class="buy-now-btn">Buy Now</button>
-            <button class="see-details-btn">
-              See details
-              <svg class="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
+          <div class="card-fields">
+            <label for="cardName">Name on card</label>
+            <input id="cardName" name="cardName" type="text" placeholder="Cardholder name" autocomplete="cc-name">
 
-      <div class="product-card">
-        <div class="product-image">
-          <img 
-            src="https://static.godrejenterprises.com/RT_EONVIBE_366_B_RCIT_MTBK_5faf9e3496.webp" 
-          
-          >
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Eon Regalis - Double Door Frost Free 436 Litre Champagne Gold</h3>
-          <p class="product-model">RT EONREGALIS 477B RCI CH GD</p>
-          <div class="product-actions">
-            <button class="buy-now-btn">Buy Now</button>
-            <button class="see-details-btn">
-              See details
-              <svg class="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
-    </main>
-    <main class="products-grid">
-      <div class="product-card">
-        <div class="product-image">
-          <img 
-            src="https://static.godrejenterprises.com/01_3730452921.webp" 
-           
-            alt="Eon Regalis Double Door Frost Free 472 Litre Champagne Gold"
-           
-          >
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Eon Regalis - Double Door Frost Free 472 Litre Champagne Gold</h3>
-          <p class="product-model">RT EONREGALIS 517B RCI CH GD</p>
-          <div class="product-actions">
-            <button class="buy-now-btn">Buy Now</button>
-            <button class="see-details-btn">
-              See details
-              <svg class="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
+            <label for="cardNumber">Card number</label>
+            <input id="cardNumber" name="cardNumber" inputmode="numeric" pattern="[0-9\s]{13,19}" type="text" placeholder="1111 2222 3333 4444" autocomplete="cc-number">
 
-      <div class="product-card">
-        <div class="product-image">
-          <img 
-            src="https://static.godrejenterprises.com/01_07e182c9fb.webp" 
-           
-            alt="Eon Regalis Double Door Frost Free 472 Litre Matt Black"
-          
-          >
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Eon Regalis - Double Door Frost Free 472 Litre Matt Black</h3>
-          <p class="product-model">RT EONREGALIS 517B RCI MT BK</p>
-          <div class="product-actions">
-            <button class="buy-now-btn">Buy Now</button>
-            <button class="see-details-btn">
-              See details
-              <svg class="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
+            <div class="row small">
+              <div>
+                <label for="expiry">Expiry (MM/YY)</label>
+                <input id="expiry" name="expiry" type="text" placeholder="MM/YY" inputmode="numeric">
+              </div>
+              <div>
+                <label for="cvv">CVV</label>
+                <input id="cvv" name="cvv" type="password" inputmode="numeric" maxlength="4" placeholder="123">
+              </div>
+            </div>
 
-      <div class="product-card">
-        <div class="product-image">
-          <img 
-            src="https://static.godrejenterprises.com/01_99d789c863.webp" 
-          >
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Eon Regalis - Double Door Frost Free 436 Litre Matt Black</h3>
-          <p class="product-model">RT EONREGALIS 477B RCI MT BK</p>
-          <div class="product-actions">
-            <button class="buy-now-btn">Buy Now</button>
-            <button class="see-details-btn">
-              See details
-              <svg class="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
+            <label class="checkbox"><input type="checkbox" name="save"> Save card for faster checkout</label>
           </div>
-        </div>
-      </div>
 
-      <div class="product-card">
-        <div class="product-image">
-          <img 
-            src="https://static.godrejenterprises.com/01_b6ea27ee61.webp" 
-          
-          >
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Eon Regalis - Double Door Frost Free 436 Litre Champagne Gold</h3>
-          <p class="product-model">RT EONREGALIS 477B RCI CH GD</p>
-          <div class="product-actions">
-            <button class="buy-now-btn">Buy Now</button>
-            <button class="see-details-btn">
-              See details
-              <svg class="arrow-icon" viewBox="0 0 24 24" width="16" height="16">
-                <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
+          <div class="actions">
+            <button type="submit" class="primary">Place order — Pay now</button>
           </div>
-        </div>
-      </div>
-    </main>
-  </div>
+        </section>
 
-<div class="container">
-    <section class="related-content">
-      <h2 class="section-title">Related content</h2>
-      
-      <div class="content-grid">
-        <article class="content-item">
-          <div class="content-image">
-            <img 
-              src="https://static.godrejenterprises.com/DC_2_X1_Adapt_1200_X_700_139e8b0c4f.webp" 
-           
-            />
+        <aside class="summary" aria-label="Order summary">
+          <h2>Order Summary</h2>
+          <div class="product">
+            <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727251/02_5a200e337e_o7mgq0.webp" alt="Dell Laptop" />
+            <div class="prod-meta">
+              <strong>Eon Vogue - Frost Free 244 Litre 2 Star Walnut Wood</strong>
+              <div class="muted">Qty: 1</div>
+              <div class="price">₹ 99,990.00</div>
+            </div>
           </div>
-          <div class="content-text">
-            <h3 class="content-title">Easy Maintenance Guide for your Refrigerator: Expert Tips for Ensuring Freshness and Efficiency</h3>
-            <button class="read-more-btn">Read More</button>
-          </div>
-        </article>
 
-        <article class="content-item">
-          <div class="content-image">
-            <img 
-              src="https://static.godrejenterprises.com/Ganesh_Chaturthi_Release_Regalis_Fruits_1200_X_700_552beace0e.webp" 
-             
-            />
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span>₹ 99,990.00</span>
           </div>
-          <div class="content-text">
-            <h3 class="content-title">Tips to keep your fruits fresher for longer in your Godrej Refrigerators</h3>
-            <button class="read-more-btn">Read More</button>
+          <div class="summary-row">
+            <span>Shipping</span>
+            <span>Free</span>
           </div>
-        </article>
+          <div class="summary-row total">
+            <span>Total</span>
+            <span>₹ 99,990.00</span>
+          </div>
 
-        <article class="content-item">
-          <div class="content-image">
-            <img 
-              src="https://static.godrejenterprises.com/Maintenance_1200_X_700_e796c746a4.webp" 
-              
-            />
+          <label for="coupon">Coupon code</label>
+          <div class="coupon">
+            <input id="coupon" name="coupon" type="text" placeholder="Enter code">
+            <button type="button" class="apply">Apply</button>
           </div>
-          <div class="content-text">
-            <h3 class="content-title">Types of Refrigerators</h3>
-            <button class="read-more-btn purple">Read More</button>
-          </div>
-        </article>
 
-        <article class="content-item">
-          <div class="content-image">
-            <img 
-              src="https://static.godrejenterprises.com/elevatekitchen_23eaa041bb.jpg" 
-             
-            />
-          </div>
-          <div class="content-text">
-            <h3 class="content-title">Elevate your Kitchen's Cool Quotient by upgrading to Godrej Side-By-Side Refrigerator</h3>
-            <button class="read-more-btn">Read More</button>
-          </div>
-        </article>
-      </div>
-    </section>
-  </div>
+          <p class="legal">By placing your order you agree to our <a href="#">terms</a> and <a href="#">privacy policy</a>.</p>
+        </aside>
+      </form>
+    </div>
+  </main>
 
+  
     <footer class="site-footer" role="contentinfo">
 	<div class="footer-top">
 	<div class="footer-logo">Godrej</div>
@@ -501,5 +253,6 @@
 	</div>
 	</div>
 </footer>
+ 
 </body>
 </html>

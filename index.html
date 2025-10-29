@@ -1,18 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Checkout — Dell Store</title>
- 
-  <link rel="stylesheet" href="./godrej/https-www.godrejenterprises.com-clone/godrejenterprises/godrejenterprises.css">
-  <style>
-    
- 
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./godrejenterprises.css">
+   
+    <title>Godrej Enterprises Banner</title>
+    <style>
+       </style>
 </head>
+
 <body>
-   <header class="header">
+    <header class="headerr">
         <div class="head-up">
             <div><svg class="ui-header__logo-image" aria-hidden="true" focusable="false"
                     xmlns="http://www.w3.org/2000/svg" width="61" height="28" viewBox="0 0 61 28" fill="none">
@@ -51,128 +51,270 @@
                 </svg></div>
         </nav>
     </header>
-  <header class="co-header">
-    <div class="co-inner">
-      <a class="co-logo" href="./godrej/https-www.godrejenterprises.com-clone/godrejenterprises/index.html"  style="color: #810055;">Back to Store</a>
-      <h1 class="co-brand">Checkout</h1>
+    <main class="banner">
+        <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761728527/banner_desktop_1_a3883706dc_mqwaof.webp" alt="Unlock New Worlds"
+            class="banner-image">
+        <div class="banner-content">
+            <h1 class="banner-title">Unlock New Worlds</h1>
+            <a href="#" class="know-more-btn">Know more ›</a>
+        </div>
+
+       
+    </main>
+    <div class="box">
+         <div class="links">
+            <a href="#">Our Offerings ></a>
+            <a href="#">Get Support ></a>
+            <a href="#">About Us ></a>
+            <a href="#">Work With Us ></a>
+            <a href="#">Contact Us ></a>
+            <a href="#">Business Inquiry ></a>
+        </div>
+        <div class="image"></div>
     </div>
-  </header>
 
-  <main class="checkout">
-    <div class="container">
-      <form class="checkout-form" action="#" method="post" novalidate>
-        <section class="billing">
-          <h2>Billing & Shipping Details</h2>
+    
 
-          <label for="fullName">Full name</label>
-          <input id="fullName" name="fullName" type="text" required placeholder="First Last">
-
-          <label for="email">Email address</label>
-          <input id="email" name="email" type="email" required placeholder="you@example.com">
-
-          <label for="phone">Phone</label>
-          <input id="phone" name="phone" type="tel" inputmode="tel" placeholder="+91 98765 43210">
-
-          <label for="address">Address</label>
-          <input id="address" name="address" type="text" required placeholder="Street address, P.O. box">
-
-          <div class="row">
-            <div>
-              <label for="city">City</label>
-              <input id="city" name="city" type="text" required>
-            </div>
-            <div>
-              <label for="state">State / Region</label>
-              <input id="state" name="state" type="text">
-            </div>
-          </div>
-
-          <div class="row">
-            <div>
-              <label for="zip">Postal code</label>
-              <input id="zip" name="zip" type="text" inputmode="numeric" pattern="[0-9]{3,10}">
-            </div>
-            <div>
-              <label for="country">Country</label>
-              <select id="country" name="country" required>
-                <option value="IN">India</option>
-                <option value="US">United States</option>
-                <option value="GB">United Kingdom</option>
-                <option value="OTHER">Other</option>
-              </select>
-            </div>
-          </div>
-
-          <hr>
-
-          <h2>Payment</h2>
-
-          <label class="radio"><input type="radio" name="payment" value="card" checked> Credit / Debit card</label>
-          <label class="radio"><input type="radio" name="payment" value="upi"> UPI / Netbanking</label>
-
-          <div class="card-fields">
-            <label for="cardName">Name on card</label>
-            <input id="cardName" name="cardName" type="text" placeholder="Cardholder name" autocomplete="cc-name">
-
-            <label for="cardNumber">Card number</label>
-            <input id="cardNumber" name="cardNumber" inputmode="numeric" pattern="[0-9\s]{13,19}" type="text" placeholder="1111 2222 3333 4444" autocomplete="cc-number">
-
-            <div class="row small">
-              <div>
-                <label for="expiry">Expiry (MM/YY)</label>
-                <input id="expiry" name="expiry" type="text" placeholder="MM/YY" inputmode="numeric">
-              </div>
-              <div>
-                <label for="cvv">CVV</label>
-                <input id="cvv" name="cvv" type="password" inputmode="numeric" maxlength="4" placeholder="123">
-              </div>
-            </div>
-
-            <label class="checkbox"><input type="checkbox" name="save"> Save card for faster checkout</label>
-          </div>
-
-          <div class="actions">
-            <button type="submit" class="primary">Place order — Pay now</button>
-          </div>
-        </section>
-
-        <aside class="summary" aria-label="Order summary">
-          <h2>Order Summary</h2>
-          <div class="product">
-            <img src="https://static.godrejenterprises.com/02_5a200e337e.webp" alt="Dell Laptop" />
-            <div class="prod-meta">
-              <strong>Eon Vogue - Frost Free 244 Litre 2 Star Walnut Wood</strong>
-              <div class="muted">Qty: 1</div>
-              <div class="price">₹ 99,990.00</div>
-            </div>
-          </div>
-
-          <div class="summary-row">
-            <span>Subtotal</span>
-            <span>₹ 99,990.00</span>
-          </div>
-          <div class="summary-row">
-            <span>Shipping</span>
-            <span>Free</span>
-          </div>
-          <div class="summary-row total">
-            <span>Total</span>
-            <span>₹ 99,990.00</span>
-          </div>
-
-          <label for="coupon">Coupon code</label>
-          <div class="coupon">
-            <input id="coupon" name="coupon" type="text" placeholder="Enter code">
-            <button type="button" class="apply">Apply</button>
-          </div>
-
-          <p class="legal">By placing your order you agree to our <a href="#">terms</a> and <a href="#">privacy policy</a>.</p>
-        </aside>
-      </form>
+<div class="what-we-do">
+    <h2>What we do</h2>
+    <div class="category-tabs">
+        <button class="tab active">For you</button>
+        <button class="tab">For your business</button>
     </div>
+    <div class="image-grid">
+        <div class="grid-item">
+            <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761728090/appliances1_d9cf798c93_ats6lx.jpg" alt="Home Appliances">
+            <h3>Home Appliances</h3>
+        </div>
+        <div class="grid-item">
+            <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761728066/furniture2_45ba343ff9_ahpyzo.jpg" alt="Home Furniture & Fittings">
+            <h3>Home Furniture & Fittings</h3>
+        </div>
+        <div class="grid-item">
+            <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761728047/locks1_4f15c591f8_rvthzf.jpg" alt="Home Locks & Security">
+            <h3>Home Locks & Security</h3>
+        </div>
+        <div class="grid-item">
+            <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761728027/aerospace_d784e7b5c8_wxz420.png" alt="Aerospace">
+            <h3>Aerospace</h3>
+        </div>
+        <div class="grid-item">
+            <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727946/engineering2_074decf89a_npyoie.jpg" alt="Commercial Appliances">
+            <h3>Commercial Appliances</h3>
+        </div>
+        <div class="grid-item">
+            <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727946/engineering2_074decf89a_npyoie.jpg" alt="Advanced Engineering">
+            <h3>Advanced Engineering</h3>
+        </div>
+        <div class="grid-item">
+            <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727929/Intralogistics_d67522868e_z7ynkl.png" alt="Intralogistics">
+            <h3>Intralogistics</h3>
+        </div>
+        <div class="grid-item">
+            <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727908/realestate2_f2b2a6828a_sfbykn.jpg" alt="Real Estate">
+            <h3>Real Estate</h3>
+        </div>
+        <div class="grid-item">
+            <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727535/fittings1_5e5f72b3d9_u82whd.jpg" alt="Commercial Furniture & Fittings">
+            <h3>Commercial Furniture & Fittings</h3>
+        </div>
+        <div class="grid-item">
+            <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727516/security1_05a4491f34_unhqec.jpg" alt="Commercial Security">
+            <h3>Commercial Security</h3>
+        </div>
+    </div>
+</div>
+    <div class="text">Good & Green</div>
+    <div class="image2">
+    <div class="div1">
+        <div class="div1-content">
+            <h2>GREENER INDIA</h2>
+            <h3>Doing business with integrity</h3>
+            <p>How we infuse green thinking into our policies, structure, management and operations.</p>
+            <a href="#" class="arrow-link">
+                Know More
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="div2">
+        <div class="div2-content">
+            <h2>GOOD & GREEN PRODUCTS</h2>
+            <h3>Products for a better tomorrow</h3>
+            <p>Delivering sustainability through continuous improvements, technological advancement and consumer insights.</p>
+            <a href="#" class="arrow-link">
+                Know More
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="careers-section">
+    <div class="careers-image-container">
+        <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727492/careerbanner1_e738e7d7b5_f8357adbf5_gqg9si.webp" alt="Career at Godrej" class="zoom-image">
+        <div class="careers-content">
+            <h2>Let's create the future together.</h2>
+            <p>Join a team of dedicated professionals committed to a better tomorrow.</p>
+            <a href="#" class="careers-btn">Come work with us</a>
+        </div>
+    </div>
+</div>
+
+<div class="discover-section">
+    <h2>Discover more</h2>
+    <div class="discover-cards">
+        <div class="discover-card">
+            <div class="card-image">
+                <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727471/Kitchen1new_29547ce0b4_qqhxyo.jpg" alt="Wood-finish refrigerators">
+                <div class="card-content">
+                    <h3>Godrej Technology X Your Style: Wood-finish refrigerators.</h3>
+                    <a href="#" class="card-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="discover-card">
+            <div class="card-image"><a href="./product.html" style="color: white; font-size: 35px; text-decoration: none;" >
+                <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727445/Ref2_44174607f8_pcot79.jpg" alt="Modular kitchens">
+                <div class="card-content">
+                    <h3 >Function meets flair with our modular kitchens.</h3>
+                    <a href="#" class="card-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                </div></a>
+            </div>
+        </div>
+        <div class="discover-card">
+            <div class="card-image">
+                <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727422/Digital_Lock1_fcd4b954f7_bseihf.jpg" alt="Digital locks">
+                <div class="card-content">
+                    <h3>High security. Effortless access. Digital locks.</h3>
+                    <a href="#" class="card-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="discover-card">
+            <div class="card-image">
+                <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727377/Nx_Pro_f90bd90f56_jkrnin.jpg" alt="NX Pro Plus">
+                <div class="card-content">
+                    <h3>You are the key with NX Pro Plus biometric home lockers.</h3>
+                    <a href="#" class="card-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="stats-section">
+    <h2>Godrej Enterprises Group at a glance</h2>
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-content">
+                <h3>ENVIRONMENT STEWARDSHIP</h3>
+                <p>Revenue from sustainable products by 2032</p>
+                <div class="stat-number">50%</div>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-content">
+                <h3>DRIVING INNOVATION</h3>
+                <p>Patents, designs applications, registered and applied for</p>
+                <div class="stat-number">1,700+</div>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-content">
+                <h3>TURNOVER</h3>
+                <p>Annual turnover of ₹18970 crore for FY 2024-25, unaudited and provisional</p>
+                <div class="stat-number">₹189B</div>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-content">
+                <h3>CUSTOMER CENTRICITY</h3>
+                <p>Customers served across 5 continents</p>
+                <div class="stat-number">1.1B+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="header">
+      <div class="title">Latest at Godrej</div>
+      <a class="see-all" href="#">See all</a>
+    </div>
+  <main class="container">
+   
+
+    <article class="cardd" aria-label="Latest news cardd">
+      <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727355/RMP_LSS_201123_L1_A7856_2_962f4c72c2_jzhmux.webp" alt="Godrej operations" />
+      <div class="cardd-contentt">
+        <div class="date">24 July, 2025</div>
+        <h2 class="headline">Precision manufacturing and innovation at scale</h2>
+        <p class="desc">
+          Specialized engineering capabilities and advanced solutions continue to power growth
+          across sectors, showcasing a commitment to innovation and quality.
+        </p>
+        <a class="cta" href="#">Read More</a>
+      </div>
+    </article>
+ 
+   
+
+    <article class="cardd" aria-label="Latest news cardd">
+      <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727328/Godrej_Enterprises_Group_Image_d3cac9a85f_fcqdtp.webp" alt="Godrej operations" />
+      <div class="cardd-contentt">
+        <div class="date">24 July, 2025</div>
+        <h2 class="headline">Precision manufacturing and innovation at scale</h2>
+        <p class="desc">
+          Specialized engineering capabilities and advanced solutions continue to power growth
+          across sectors, showcasing a commitment to innovation and quality.
+        </p>
+        <a class="cta" href="#">Read More</a>
+      </div>
+    </article>
+ 
+
+    <article class="cardd" aria-label="Latest news cardd">
+      <img src="https://res.cloudinary.com/dewymrwzf/image/upload/v1761727289/Godrej_s_Mangroves_in_Vikhroli_02252fb591_yyblcb.webp" alt="Godrej operations" />
+      <div class="cardd-contentt">
+        <div class="date">24 July, 2025</div>
+        <h2 class="headline">Precision manufacturing and innovation at scale</h2>
+        <p class="desc">
+          Specialized engineering capabilities and advanced solutions continue to power growth
+          across sectors, showcasing a commitment to innovation and quality.
+        </p>
+        <a class="cta" href="#">Read More</a>
+      </div>
+    </article>
   </main>
 
-  
+
+
+
+
+
+
     <footer class="site-footer" role="contentinfo">
 	<div class="footer-top">
 	<div class="footer-logo">Godrej</div>
@@ -253,6 +395,6 @@
 	</div>
 	</div>
 </footer>
- 
 </body>
+
 </html>
